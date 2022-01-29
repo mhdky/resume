@@ -1,0 +1,407 @@
+@media (max-width:576px) {
+    .container-name p {
+        font-size: 2em;
+    }
+
+    .type {
+        height: 15px;
+    }
+
+    .typing {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:276px) {
+    .container-name p {
+        font-size: 1.7em;
+    }
+
+    .type {
+        height: 15px;
+    }
+}
+
+@media (max-width:960px) {
+    .img-tab-to-bottom {
+        width: 20px;
+    }
+
+    .tab-to-bottom {
+        right: 0;
+        width: 100%;
+        height: 63px;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .box-button-resposive {
+        display: block;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .details h1 {
+        font-size: 2.8em;
+    }
+
+    .details .me {
+        max-width: 490px;
+    }
+}
+
+@media (max-width:1158px) {
+
+    .box-aboutme {
+        max-width: 720px;
+    }
+
+    .details h1 {
+        font-size: 2.5em;
+    }
+
+    .details .me {
+        max-width: 420px;
+    }
+}
+
+@media (max-width:1100px) {
+    .box-aboutme {
+        max-width: 665px;
+    }
+
+    .details h1 {
+        font-size: 2em;
+    }
+
+    .details .me {
+        max-width: 370px;
+    }
+}
+
+@media (max-width:1052px) {
+    .box-aboutme {
+        max-width: 600px;
+    }
+
+    .details h1 {
+        font-size: 1.6em;
+    }
+
+    .details .me {
+        max-width: 310px;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width:100px) and (max-width:960px) {
+
+    .profil img {
+        margin-left: 10px;
+    }
+
+    .box-aboutme {
+        max-width: 800px;
+        ;
+    }
+
+    .details h1 {
+        font-size: 2.8em;
+        margin-right: 10px;
+    }
+
+    .details .me {
+        max-width: 460px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width:786px) {
+    .box-aboutme {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
+
+    .profil img {
+        width: 100%;
+    }
+
+    .details {
+        margin-top: 30px;
+    }
+
+    .details h1 {
+        margin: 0 10px;
+    }
+
+    .details .me {
+        margin: 0 10px;
+    }
+
+    .download {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:491px) {
+    .details h1 {
+        font-size: 9vw;
+    }
+}
+
+@media (max-width:317px) {
+    .profil img {
+        width: 240px;
+        height: 280px;
+    }
+}
+
+@media (max-width:1314px) {
+    .card-skills {
+        width: 750px;
+        height: 680px;
+    }
+}
+
+@media (max-width:1104px) {
+    .card-skills {
+        width: 450px;
+        height: 920px;
+    }
+}
+
+@media (min-width:100px) and (max-width:958px) {
+    .card-skills {
+        width: 100%;
+        height: 440px;
+    }
+}
+
+@media (max-width:879px) {
+    .card-skills {
+        height: 680px;
+    }
+}
+
+@media (max-width:659px) {
+    .card-skills {
+        height: 880px;
+    }
+}
+
+@media (max-width:439px) {
+    .card-skills {
+        height: 1500px;
+    }
+}
+
+@media (max-width:1208px) {
+    .box-project {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
+}
+
+@media (max-width:958px) {
+    .box-project {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+}
+
+@media (max-width:848px) {
+    .box-project {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .portfolio img {
+        width: 100%;
+    }
+}
+
+@media (max-width:426px) {
+    .portfolio img {
+        width: 100%;
+    }
+
+    .portfolio {
+        width: 95%;
+    }
+}
+
+@media (max-width:424px) {
+    .portfolio {
+        width: 97%;
+    }
+
+    .portfolio p {
+        width: 100%;
+    }
+}
+
+@media (max-width:422px) {
+
+    .ig,
+    .fb {
+        width: 180px;
+        height: 180px;
+    }
+
+    .ig img,
+    .fb img,
+    .contact-two img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-two {
+        width: 100%;
+        height: 180;
+        background-color: aqua;
+    }
+
+    .box-contact {
+        max-width: 93%;
+    }
+}
+
+@media (max-width:394px) {
+
+    .ig,
+    .fb {
+        width: 170px;
+        height: 170px;
+    }
+
+    .ig img,
+    .fb img,
+    .contact-two img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-two {
+        width: 100%;
+        height: 170;
+        background-color: aqua;
+    }
+}
+
+@media (max-width:371px) {
+
+    .ig,
+    .fb {
+        width: 160px;
+        height: 160px;
+    }
+
+    .ig img,
+    .fb img,
+    .contact-two img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact-two {
+        width: 100%;
+        height: 160;
+        background-color: aqua;
+    }
+}
+
+@media (max-width:353px) {
+
+    .ig,
+    .fb {
+        width: 150px;
+        height: 150px;
+    }
+
+    .ig img,
+    .fb img,
+    .contact-two img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-two {
+        width: 100%;
+        height: 150;
+        background-color: aqua;
+    }
+}
+
+@media (max-width:330px) {
+
+    .ig,
+    .fb {
+        width: 140px;
+        height: 140px;
+    }
+
+    .ig img,
+    .fb img,
+    .contact-two img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-two {
+        width: 100%;
+        height: 140;
+        background-color: aqua;
+    }
+}
+
+@media (max-width:310px) {
+
+    .ig,
+    .fb {
+        width: 130px;
+        height: 130px;
+    }
+
+    .ig img,
+    .fb img,
+    .contact-two img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-two {
+        width: 100%;
+        height: 130;
+        background-color: aqua;
+    }
+}
+
+@media (max-width:493px) {
+    .copyright {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
